@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-top: 20px;
+    text-align: center;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top, rgb(227,  76,  38,0), rgb(240,  101,  41,90) );
+}
+html{
+    background-color: white;
+}
+#page{
+    width: 960px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+
+}
+main > header{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1em;
+    background-image: linear-gradient(to top,#0170B9, #27AADE );
+    border-bottom: solid 6px black;
+    border-radius: 20px 20px 0px 00px;
+}
+
+h1{
+    background-image: url("../imgs/logo.png");
+    background-repeat: no-repeat;
+    background-position: 25px center;
+    padding: 20px 100px ;
+ 
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    color: silver;
+    text-align: center;
+    background-image: linear-gradient(rgb(213, 186, 50), rgb(255, 218, 62));
+}
+li{
+    padding-top: 80px ;
+    margin: 0px 100px 20px 100px;
+    display: inline-block;
+    list-style: none;
+    cursor: default;
+    text-align: center;
+}
+
+li:first-child{
+    background-image: url("../imgs/book.png");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+
+li:nth-child(2n) {
+    background-image: url("../imgs/film.png");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+
+}
+
+li:last-child{
+
+    background-image: url("../imgs/mail.png");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: orange;
+}
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-color: white;
+    width: 100%;
+    display: table;
+}
+
+article{
+    width: 240px;
+    border: solid 1px lightgray;
+    
+    background-color: white;
+    text-align: center;
+    line-height: 1.8em;
+    padding: 5px 5px 22px 5px;
+    margin: 20px;
+    float: left;
+
+    border-style:solid;
+    border-width:80px 15px 50px 15px;
+    border-image-source:url("../imgs/movil.png");
+    border-image-slice: 70 25 60 25 ;
+ 
+
+}
+
+
+#page > content:nth-child(3) > article:nth-child(3) > header:nth-child(1) > img:nth-child(1) {
+    background-image: radial-gradient(circle farthest-side,  #ffffff 0%, #cecece 200%) ;
+}
+
+h2{
+    padding: 10px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px gray;
+    letter-spacing: 0.5em;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top,#0170B9, #27AADE );
+    border-top: solid 6px black;
+    padding: 15px 0px 15px 0px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+
+span{
+    font-weight: bold;
+}
